@@ -24,16 +24,20 @@ public class SmpOutputWriterImplTest {
     //TODO
     @Test
     public void testPrint() throws Exception {
+    	stream.println("test");
     }
 
     //TODO
     @Test
     public void testPrintEmpty() throws Exception {
+    	stream.println("");
     }
 
     //TODO
     @Test
     public void testPrintNull() throws Exception {
+    	stream.println(0);;
+
     }
 
 }
